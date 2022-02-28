@@ -1,0 +1,15 @@
+{
+  "name": "bs5-purgecss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "purgecss --css bootstrap.min.css --content index.html -o dist/"
+  },
+  "author": "Shiva Ramdeen",
+  "license": "ISC",
+  "devDependencies": {
+    "purgecss": "^4.1.3"
+  }
+}

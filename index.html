@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopify</title>
+
+    <!-- full bootstrap css  -->
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <!-- purged css -->
+    <!-- <link rel="stylesheet" href="./dist/bootstrap.min.css" /> -->
+</head>
+<style>
+    .card {
+        width: 550px;
+        height: 550px;
+    }
+
+    .bg-primary {
+        background-color: #084C3F !important;
+    }
+
+    .btn-primary {
+        background-color: #084C3F;
+        border-color: #084C3F;
+    }
+
+    .btn-primary:hover {
+        background-color: #008060;
+    }
+
+    .form-control:focus {
+        border-color: #00bf9a;
+        box-shadow: none;
+    }
+</style>
+
+<body class="bg-primary vh-100">
+    <div class="d-flex ms-md-5 align-items-center justify-content-center justify-content-md-start vh-100 mx-2">
+        <div class="card shadow-sm ms-md-5 rounded-5">
+            <div class="card-body mt-5">
+                <img class="mx-auto d-block mb-3 w-25" src="assets/logo.svg" alt="">
+                <h4 class="text-center mx-5 fw-bold">Log In to your account</h4>
+
+                <form action="" class="p-3">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email"
+                            placeholder="Email">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" aria-describedby="password"
+                            placeholder="password">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg mb-5 w-100">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
